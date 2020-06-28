@@ -1,6 +1,6 @@
 <?php
 	$link = pg_connect("
-  host=ec2-34-232-147-86.compute-1.amazonaws.com
+  host=localhost
   dbname=d3c1oim74q14mm
   user=lzggidtdhppjik
   port=5432
