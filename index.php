@@ -11,21 +11,131 @@
     <script src="jquery.mobile-1.4.5.min.js"></script>
  </head>
 <body>
-<!--You need to type in the structure of a single page hybrid apps-->
-<!--by using attribute data-role, value "page" in jQuery-->
+
 <div data-role="page" id="home">
 
   <div data-role="header" data-role="button">
     <h1>ATN COMPANY</h1>
     <h1>CLOUD APPLICATION FOR SALE MANAGEMENT</h1>
-  </div><!-- /header -->
+  </div>
 
   <div data-role="main" class="ui-content">
     <a id="btnCustomer" href="#customer" class="ui-btn">Customer</a>
     <a id="btnProduct" href="#product" class="ui-btn">Product</a>
     <a id="btnInvoice" href="#invoice" class="ui-btn">Invoice</a>
   </div>
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+    </style>   
+    <h2>Customer Table</h2>
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Date of birth</th>
+        <th>Phone Number</th>
+        <th>Address</th>
+      </tr>
+      <tr>
+        <td>001</td>
+        <td>Shuten Douji</td>
+        <td>01/01/2000</td>
+        <td>0900000001</td>
+        <td>01/01 A street</td>
+      </tr>
+      <tr>
+        <td>002</td>
+        <td>Yoshi Mario</td>
+        <td>01/01/2000</td>
+        <td>0900000001</td>
+        <td>01/01 B street</td>
+      </tr>
+      <tr>
+        <td>003</td>
+        <td>Giorno Giovanna</td>
+        <td>01/01/2000</td>
+        <td>0900000001</td>
+        <td>01/01 C street</td>
+      </tr>
+    </table>
 
+    <h2>Product Table</h2>
+    <table>
+      <tr>
+        <th>Product ID</th>
+        <th>Product Name</th>
+        <th>Category</th>
+        <th>Price</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>EV-A00</td>
+        <td>Robot Figure</td>
+        <td>Figurine</td>
+        <td>$900000</td>
+        <td>Robot toy frome an old anime</td>
+      </tr>
+      <tr>
+        <td>EV-A01</td>
+        <td>Robot Figure</td>
+        <td>Figurine</td>
+        <td>$900000</td>
+        <td>Robot toy frome an old anime</td>
+      </tr>
+      <tr>
+        <td>EV-A02</td>
+        <td>Robot Figure</td>
+        <td>Figurine</td>
+        <td>$900000</td>
+        <td>Robot toy frome an old anime</td>
+      </tr>
+    </table>
+
+    <h2>Invoice</h2>
+    <table>
+      <tr>
+        <th>Product ID</th>
+        <th>Product Name</th>
+        <th>Category</th>
+        <th>Price</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>EV-A00</td>
+        <td>Robot Figure</td>
+        <td>Figurine</td>
+        <td>$900000</td>
+        <td>Robot toy frome an old anime</td>
+      </tr>
+      <tr>
+        <td>EV-A01</td>
+        <td>Robot Figure</td>
+        <td>Figurine</td>
+        <td>$900000</td>
+        <td>Robot toy frome an old anime</td>
+      </tr>
+      <tr>
+        <td>EV-A02</td>
+        <td>Robot Figure</td>
+        <td>Figurine</td>
+        <td>$900000</td>
+        <td>Robot toy frome an old anime</td>
+      </tr>
+    </table>
+    
+    
   <div data-role="footer" data-position="fixed">
     <h4>Navigation</h4>
       <div data-role="navbar">
@@ -35,14 +145,14 @@
           <li><a href="#invoice" data-role="button" >Invoice</a></li>
         </ul>
       </div>
-  </div><!-- /footer -->
-</div><!-- /page -->
+  </div>
+</div>
 
 <div data-role="page" id="invoice">
 
   <div data-role="header">
     <h1>INVOICE</h1>
-  </div><!-- /header -->
+  </div>
 
   <div data-role="main" class="ui-content">
     <h1>Invoice Form</h1>
@@ -60,7 +170,6 @@
         <label for="productcat">Category</label>
         <input type="text" name="Category" id="productcat">
       </p>
-
       <p>
         <label for="price">Price</label>
         <input type="text" name="Price" id="price">
@@ -75,11 +184,10 @@
       </p>
       <input type="submit" value="Submit">
       <input type="reset" value="Reset">
-      <!--<input type="button" name="submit" id="submit" value="Submit Here">
-      -->
+
     </form>
 
-  </div><!-- /content -->
+  </div>
 
   <div data-role="footer" data-position="fixed">
     <h4>Navigation</h4>
@@ -90,8 +198,8 @@
           <li><a href="#customer" data-role="button" >Customer</a></li>
         </ul>
       </div>
-  </div><!-- /footer -->
-</div><!-- /page -->
+  </div>
+</div>
 
 	<!--This is the 2nd page-->
 	<div data-role="page" id="product">
@@ -123,7 +231,7 @@
             <label for="description">Descriptions<sup>*</sup></label>
             <textarea name="Desc" id="Description" rows="5" cols="30"></textarea>
         </p>
-        <input type="submit" value="Add  product">
+        <input type="submit" value="Add product">
         <input type="reset" value="Reset">
     </form>
 		</div><!-- /content -->
