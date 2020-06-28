@@ -1,6 +1,6 @@
 <?php
 	$link = pg_connect("
-  host=localhost
+  host=ec2-34-230-231-71.compute-1.amazonaws.com:5432/d7osaa29saf937
 	");
 
 	if($link === false){
