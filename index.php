@@ -50,7 +50,7 @@
       </tr>
       <tr>
         <td>001</td>
-        <td>Shuten Douji</td>
+        <td>A </td>
         <td>01/01/2000</td>
         <td>0900000001</td>
         <td>01/01 A street</td>
@@ -85,21 +85,21 @@
         <td>Robot Figure</td>
         <td>Figurine</td>
         <td>$900000</td>
-        <td>Robot toy frome an old anime</td>
+        <td>Robot toy from an old anime</td>
       </tr>
       <tr>
         <td>EV-A01</td>
         <td>Robot Figure</td>
         <td>Figurine</td>
         <td>$900000</td>
-        <td>Robot toy frome an old anime</td>
+        <td>Robot toy from an old anime</td>
       </tr>
       <tr>
         <td>EV-A02</td>
         <td>Robot Figure</td>
         <td>Figurine</td>
         <td>$900000</td>
-        <td>Robot toy frome an old anime</td>
+        <td>Robot toy from an old anime</td>
       </tr>
     </table>
 
@@ -110,6 +110,7 @@
         <th>Product Name</th>
         <th>Category</th>
         <th>Price</th>
+        <th>Date</th>
         <th>Description</th>
       </tr>
       <tr>
@@ -117,25 +118,26 @@
         <td>Robot Figure</td>
         <td>Figurine</td>
         <td>$900000</td>
-        <td>Robot toy frome an old anime</td>
+        <td>01/01/2020</td>
+        <td>Robot toy from an old anime</td>
       </tr>
       <tr>
         <td>EV-A01</td>
         <td>Robot Figure</td>
         <td>Figurine</td>
         <td>$900000</td>
-        <td>Robot toy frome an old anime</td>
+        <td>01/01/2020</td>
+        <td>Robot toy from an old anime</td>
       </tr>
       <tr>
         <td>EV-A02</td>
         <td>Robot Figure</td>
         <td>Figurine</td>
         <td>$900000</td>
-        <td>Robot toy frome an old anime</td>
+        <td>01/01/2020</td>
+        <td>Robot toy from an old anime</td>
       </tr>
     </table>
-    
-    
   <div data-role="footer" data-position="fixed">
     <h4>Navigation</h4>
       <div data-role="navbar">
